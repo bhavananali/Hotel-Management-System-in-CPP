@@ -102,7 +102,6 @@ These libraries support:
 - Add `C:\MinGW\bin` to your system's PATH
 
 ### 🔧 Step 3: Compile the Program
-```bash
 g++ hotel.cpp -o hotel
 
 ---
@@ -123,4 +122,12 @@ This ensures data persistence even after the application is closed.
 ### 🧑‍💻 User Interaction
 
 The `main_menu()` function serves as the central hub for user interaction. It presents a structured menu with various options like booking rooms, managing customer details, restaurant service, and checkout. Based on the user's input, it redirects to the appropriate function, ensuring a seamless and logical workflow throughout the system.
+
+## 💡 Future Enhancements
+
+- GUI version using Qt or C++ WinForms  
+- Room availability calendar  
+- Admin authentication system  
+- Online reservation support  
+- PDF invoice generation  
 
